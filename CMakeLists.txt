@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(image_classification_example)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(image_classification_example src.cpp)
+target_link_libraries(image_classification_example ${OpenCV_LIBS})
