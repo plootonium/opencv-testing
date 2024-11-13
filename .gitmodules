@@ -1,0 +1,4 @@
+[submodule "yolos-cpp"]
+	path = yolos-cpp
+	url = https://github.com/Geekgineer/YOLOs-CPP.git
+	branch = main
